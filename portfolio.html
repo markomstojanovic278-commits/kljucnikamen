@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Realizovani mermerni projekti i luksuzne kamene instalacije</title>
+  <meta name="description"
+    content="Pogledajte naš portfolio luksuznih mermernih projekata uključujući mermerni nameštaj, kamine, stepeništa, recepcijske pultove i arhitektonske elemente od prirodnog kamena." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">KLJUČNI<span>KAMEN</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Otvori meni">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="siteNav">
+        <a href="index.html">Početna</a>
+        <a href="about.html">O nama</a>
+        <a href="services.html">Usluge</a>
+        <a href="portfolio.html" class="active">Portfolio</a>
+        <a href="materials.html">Materijali</a>
+        <a href="contact.html" class="btn btn-nav">Kontakt</a>
+        <div class="lang-switch">
+          <select onchange="changeLanguage(this)">
+            <option value="sr">SR</option>
+            <option value="en">EN</option>
+          </select>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="inner-page">
+    <section class="page-hero small-hero">
+      <div class="container">
+        <p class="eyebrow">Portfolio</p>
+        <h1>Odabrani mermerni projekti</h1>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid portfolio-grid">
+        <article class="project-card reveal">
+          <a href="project/project-1.html">
+            <img src="images/portfolio-1.jpg" alt="Luksuzni mermerni recepcijski pult projekat">
+          </a>
+          <div class="card-body">
+            <h2>Luksuzni recepcijski pult</h2>
+            <p>Mermerni recepcijski koncept po meri za butik ugostiteljski prostor.</p>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <a href="project/dining-table.html">
+            <img src="images/portfolio-2.jpg" alt="Projekat mermernog stola po meri">
+          </a>
+          <div class="card-body">
+            <h2>Mermerni stolovi po meri</h2>
+            <p>Unikatni stolovi od prirodnog kamena izrađeni po meri, dizajnirani za različite prostore – od trpezarija do poslovnih enterijera, sa naglaskom na eleganciju, funkcionalnost i vrhunsku završnu obradu.</p>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <a href="project/marble-fountains.html">
+            <img src="images/portfolio-3.jpg" alt="Elegantno mermerno stepenište projekat">
+          </a>
+          <div class="card-body">
+            <h2>Mermerne fontane</h2>
+            <p>Arhitektonska instalacija fontana od mermera sa besprekornom luksuznom završnom obradom.</p>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <a href="project/marble-projects.html">
+            <img src="images/portfolio-4.jpg" alt="Mermena fontana">
+          </a>
+          <div class="card-body">
+            <h2>Moderni mermerni kamin</h2>
+            <p>Kamin kao centralni vizuelni element luksuznog enterijera.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><a href="index.html" class="logo footer-logo">KLJUČNI<span>KAMEN</span></a></div>
+      <div>
+        <p>Istražite vrhunski dizajn od mermera.</p>
+      </div>
+      <div>
+        <p>info@kljucnikamen.com</p>
+      </div>
+    </div>
+  </footer>
+
+<a class="whatsapp-btn" href="https://wa.me/381641696138" target="_blank" aria-label="Kontaktirajte nas na WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontakt | Zatražite ponudu za projekat od mermera</title>
+  <meta name="description"
+    content="Kontaktirajte našu kompaniju za izradu mermernog nameštaja po meri, kamina, stepeništa, radnih ploča i projekata enterijera od prirodnog kamena." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">KLJUČNI<span>KAMEN</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Otvori meni">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="siteNav">
+        <a href="index.html">Početna</a>
+        <a href="about.html">O nama</a>
+        <a href="services.html">Usluge</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="materials.html">Materijali</a>
+        <a href="contact.html" class="active btn btn-nav">Kontakt</a>
+        <div class="lang-switch">
+          <select onchange="changeLanguage(this)">
+            <option value="sr">SR</option>
+            <option value="en">EN</option>
+          </select>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="inner-page">
+    <section class="page-hero small-hero">
+      <div class="container">
+        <p class="eyebrow">Kontakt</p>
+        <h1>Zatražite ponudu za vaš projekat od mermera</h1>
+      </div>
+    </section>
+
+    <section class="section">
+        <ul class="social-wrapper">
+  
+  <li class="social-icon instagram">
+    <a href="https://www.instagram.com/kljucni_kamen/" target="_blank">
+      <span class="tooltip">Instagram</span>
+      <i class="fab fa-instagram"></i>
+    </a>
+  </li>
+
+<li class="social-icon phone">
+  <a href="tel:+381641696183">
+    <span class="tooltip">Telefon</span>
+    <i class="fas fa-phone"></i>
+  </a>
+</li>
+
+  <li class="social-icon linkedin">
+    <a href="https://www.linkedin.com/in/klju%C4%8Dni-kamen-tatarin-mirko-1ba9bb290/?originalSubdomain=rs" target="_blank">
+      <span class="tooltip">LinkedIn</span>
+      <i class="fab fa-linkedin"></i>
+    </a>
+  </li>
+
+</ul>
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <h2>Kontaktirajte nas</h2>
+          <p>Radimo sa arhitektama, dizajnerima enterijera, investitorima i privatnim klijentima na projektima od
+            mermera i prirodnog kamena po meri.</p>
+          <ul class="contact-list">
+            <li><strong>Telefon:</strong><a href="tel:+381641696138">+381 64 169683</a></li>
+            <li><strong>Email:</strong> info@kljucnikamen.com</li>
+            <li><strong>Adresa:</strong> Kneza Višeslava 4, Beograd 11030</li>
+          </ul>
+
+          <div class="map-box">
+            <iframe src="https://www.google.com/maps?q=Ključni+kamen+-+Coante+Quartz+Surfaces&output=embed" width="100%" height="300"
+              style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap reveal">
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">Ime i prezime</label>
+              <input type="text" id="name" name="name" placeholder="Vaše ime" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email adresa</label>
+              <input type="email" id="email" name="email" placeholder="Vaš email" required>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Broj telefona</label>
+              <input type="tel" id="phone" name="phone" placeholder="Vaš broj telefona">
+            </div>
+
+            <div class="form-group">
+              <label for="service">Potrebna usluga</label>
+              <select id="service" name="service">
+                <option>Mermerni nameštaj</option>
+                <option>Mermerni kamini</option>
+                <option>Mermerna stepeništa</option>
+                <option>Mermerne radne ploče</option>
+                <option>Mermerni stolovi</option>
+                <option>Mermerni zidni paneli</option>
+                <option>Recepcijski pult / štand</option>
+                <option>Mermerni podovi</option>
+                <option>Projekat od mermera po meri</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Detalji projekta</label>
+              <textarea id="message" name="message" rows="6" placeholder="Opišite nam vaš projekat..."
+                required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-gold full-width">Pošalji zahtev</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><a href="index.html" class="logo footer-logo">KLJUČNI<span>KAMEN</span></a></div>
+      <div>
+        <p>Kreirajmo nešto bezvremensko od kamena.</p>
+      </div>
+      <div>
+        <p>info@kljucnikamen.com</p>
+      </div>
+    </div>
+  </footer>
+
+<a class="whatsapp-btn" href="https://wa.me/381641696138" target="_blank" aria-label="Kontaktirajte nas na WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

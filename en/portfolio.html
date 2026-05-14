@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Completed Marble Projects & Luxury Stone Installations</title>
+  <meta name="description"
+    content="Browse our portfolio of luxury marble projects including marble furniture, fireplaces, staircases, reception desks, and bespoke architectural stone elements." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">KLJUČNI<span>KAMEN</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="siteNav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html" class="active">Portfolio</a>
+        <a href="materials.html">Materials</a>
+        <a href="contact.html" class="btn btn-nav">Contact</a>
+        <div class="lang-switch">
+          <select onchange="changeLanguage(this)">
+            <option value="en">EN</option>
+            <option value="sr">SR</option>
+          </select>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="inner-page">
+    <section class="page-hero small-hero">
+      <div class="container">
+        <p class="eyebrow">Portfolio</p>
+        <h1>Selected Marble Projects</h1>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid portfolio-grid">
+        <article class="project-card reveal">
+          <a href="../project/reception.html">
+            <img src="../images/portfolio-1.jpg" alt="Luxury marble reception desk project">
+          </a>
+          <div class="card-body">
+            <h2>Luxury Reception Desk</h2>
+            <p>Custom marble reception concept for a boutique hospitality space.</p>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <a href="project/dining-table.html">
+            <img src="../images/portfolio-2.jpg" alt="Custom marble table project">
+          </a>
+          <div class="card-body">
+            <h2>Bespoke Marble Dining Table</h2>
+            <p>Natural stone dining centerpiece designed for a refined modern residence.</p>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <a href="project/marble-fountains.html">
+            <img src="../images/portfolio-3.jpg" alt="Elegant marble staircase project">
+          </a>
+          <div class="card-body">
+            <h2>Marble fountains</h2>
+            <p>Architectural installation of marble fountains with a flawless luxury finish.</p>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <a href="project/marble-projects.html">
+            <img src="../images/portfolio-4.jpg" alt="Modern marble fireplace project">
+          </a>
+          <div class="card-body">
+            <h2>Modern Marble Fireplace</h2>
+            <p>Feature fireplace composed as the visual anchor of a high-end interior.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><a href="index.html" class="logo footer-logo">KLJUČNI<span>KAMEN</span></a></div>
+      <div>
+        <p>Explore custom marble design at its highest level.</p>
+      </div>
+      <div>
+        <p>info@kljucnikamen.com</p>
+      </div>
+    </div>
+  </footer>
+
+<a class="whatsapp-btn" href="https://wa.me/381641696138" target="_blank" aria-label="Kontaktirajte nas na WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+<script src="../js/main.js"></script>
+</body>
+
+</html>

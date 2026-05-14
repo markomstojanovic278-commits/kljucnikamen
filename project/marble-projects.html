@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ostali mermerni projekti</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="../CSS/project.css">
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+      <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">KLJUČNI<span>KAMEN</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Otvori meni">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="siteNav">
+        <a href="../index.html">Početna</a>
+        <a href="../about.html">O nama</a>
+        <a href="../services.html">Usluge</a>
+        <a href="../portfolio.html" class="active">Portfolio</a>
+        <a href="../materials.html">Materijali</a>
+        <a href="../contact.html" class="btn btn-nav">Kontakt</a>
+        <div class="lang-switch">
+          <select onchange="changeLanguage(this)">
+            <option value="sr">SR</option>
+            <option value="en">EN</option>
+          </select>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+<section class="project">
+  <div class="container">
+
+    <h1 class="project-title">Ostali mermerni projekti</h1>
+
+    <p class="project-desc">
+      Raznovrsni mermerni projekti po meri – od enterijera do eksterijera, sa fokusom na kvalitet, dugotrajnost i estetiku.
+    </p>
+
+    <div class="project-grid">
+      <div class="grid-item"><img src="../images/portfolio-4.jpg"></div>
+      <div class="grid-item"><img src="../images/ostalo2.jpg"></div>
+      <div class="grid-item"><img src="../images/ostalo3.jpg"></div>
+      <div class="grid-item"><img src="../images/ostalo4.jpg"></div>
+      <div class="grid-item"><img src="../images/ostalo5.jpg"></div>
+      <div class="grid-item"><img src="../images/ostalo6.jpg"></div>
+    </div>
+
+  </div>
+</section>
+
+<div class="lightbox" id="lightbox">
+  <span class="close">&times;</span>
+  <img class="lightbox-img" id="lightbox-img">
+  <button class="prev">&#10094;</button>
+  <button class="next">&#10095;</button>
+</div>
+ <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><a href="index.html" class="logo footer-logo">KLJUČNI<span>KAMEN</span></a></div>
+      <div>
+        <p>Istražite vrhunski dizajn od mermera.</p>
+      </div>
+      <div>
+        <p>info@kljucnikamen.com</p>
+      </div>
+    </div>
+  </footer>
+
+<a class="whatsapp-btn" href="https://wa.me/381641696138" target="_blank" aria-label="Kontaktirajte nas na WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<script src="../JS/project.js"></script>
+<script src="../JS/main.js"></script>
+</body>
+</html>
